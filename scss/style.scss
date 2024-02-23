@@ -27,7 +27,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #000;
 }
 
 h1 {
@@ -122,4 +121,22 @@ footer {
   text-decoration: none;
   color: white;
   padding-left: 1em;
+}
+
+.navProfile {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(0deg, rgba(33, 37, 41, 1) 32%, rgba(0, 0, 0, 1) 100%);
+}
+
+.h1Profile {
+  font-size: 70px;
+}
+
+.borderDiv {
+  border-top: solid 1px rgba(150, 150, 150, 0.24);
+}
+
+.btnFinali:hover {
+  background-color: white !important;
+  color: black;
 }
